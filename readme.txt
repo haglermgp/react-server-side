@@ -1,0 +1,2 @@
+When the page load, the bundle file will be stated up and ReactDOM.render()
+will hook into the data-react-id attributes from the server-rendered HTML. This will connect our newly-started REact instance  to the virtual DOM used on the server. Since we have the same initial state for our Redux store and used the same code for all our view components, the result will be the same real DOM.

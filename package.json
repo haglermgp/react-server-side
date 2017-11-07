@@ -1,0 +1,66 @@
+{
+  "name": "react-server",
+  "version": "1.0.0",
+  "description": "A React boilerplate, for render server side. We add react-router, redux and material-ui as frontend complementary technologies.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node development.js",
+    "prod": "NODE_ENV=production webpack --config webpack.production.config.js --progress --profile --colors && node production.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haglermgp/react-server-side.git"
+  },
+  "keywords": [
+    "Html",
+    "Css",
+    "Js",
+    "React",
+    "Nodejs",
+    "Material-ui",
+    "Redux",
+    "React-router"
+  ],
+  "author": "hagler.mgp",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "material-design-icons": "^3.0.1",
+    "material-ui": "^1.0.0-beta.19",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-helmet": "^5.2.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-tap-event-plugin": "^3.0.2",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "express": "^4.16.2",
+    "extract-text-webpack-plugin": "^3.0.1",
+    "isomorphic-style-loader": "^4.0.0",
+    "node-sass": "^4.5.3",
+    "optimize-css-assets-webpack-plugin": "^3.2.0",
+    "sass-loader": "^6.0.6",
+    "stats-webpack-plugin": "^0.6.1",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1",
+    "webpack-cleanup-plugin": "^0.5.1",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-hot-middleware": "^2.20.0",
+    "webpack-hot-server-middleware": "^0.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/haglermgp/react-server-side/issues"
+  },
+  "homepage": "https://github.com/haglermgp/react-server-side#readme"
+}
